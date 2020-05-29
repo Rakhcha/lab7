@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ STATIC_URL }}/static/article.css">
+        <title>
+            {{ post.title }}
+        </title>
+    </head>
+    <body>
+        <div class="header">
+            <img class="article-author" src="{{ STATIC_URL }}/static/img/im1.png">
+            <h5 class="article-created-date"><a href="http://127.0.0.1:8000">Все статьи</a></h5>
+            <h5 class="article-created-date"><a href="http://127.0.0.1:8000/newuser">Регистрация</a></h5>
+        </div>
+        <div class="archive">
+            <div class="one-post">
+                <h2>{{ post.title }}</h2>
+                <div class="article-info">
+                    <div class="article-author">{{ post.author.username}}</div>
+                    <div class="article-created-date">{{ post.created_date}}</div>
+                </div>
+                <p class="article-text">{{ post.get_excerpt1 }}</p>
+            </div>
+        </div>
+    </body>
+</html>

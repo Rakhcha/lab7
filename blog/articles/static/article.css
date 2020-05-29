@@ -1,0 +1,96 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.header a{
+    color: #ffffff;
+}
+
+.header img{
+    display: block;
+    width: 318px; 
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    }
+
+.post-title a{
+    color: #ffffff;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+    }
+
+.article-created-date {
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    }
+
+    
+.header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+
+.content {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.text {
+    width: 100%;
+    margin-top: 20px;
+    width: 285px;
+}
+
+.glav {
+    width: 285px;
+    float: center;
+}
+
+.titl {
+    width: 500px;
+}
+
+.reg {
+    text-align: right;
+    margin-bottom: -35px;
+}
+
+.fold-button{
+    margin-top: -42px;
+    float: right;
+}
+
+.post-title{
+    margin-top: 40px;
+}
+
+.one-post-folded .article-author{
+    display: none;
+}
+
+.one-post-folded .article-created-date{
+    display: none;
+}
+
+.one-post-folded .article-text{
+    display: none;
+}
